@@ -1,38 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Mon Portfolio
 
-## Getting Started
+Bienvenue à mon portfolio numérique, une application Web conçue avec next.js pour mettre en valeur mes compétences de développement. Cette application a été conçue avec une attention particulière à l'expérience utilisateur, rendant l'interaction intuitive, simple et engageante.
 
-First, run the development server:
+Voici une description plus détaillée des pages que vous trouverez dans mon portfolio :
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+1. Page d'accueil : C'est la première page que vous verrez lorsque vous accédez à mon portfolio. Elle est conçue pour être à la fois accueillante et informative, vous donnant un aperçu de qui je suis en tant que développeur et de ce que vous pouvez attendre de mon travail.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Page CV : Cette page contient une représentation détaillée de mon curriculum vitae, décrivant mes compétences, mon expérience de travail, ma formation et d'autres informations pertinentes pour mon parcours professionnel.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+3. Page de contact : Ici, vous trouverez toutes les informations nécessaires pour me contacter, y compris un formulaire de contact pour envoyer des messages directement à partir du portfolio.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+4. Page de témoignages : Cette page présente les avis et commentaires des clients et collègues avec qui j'ai travaillé auparavant. Les témoignages sont une excellente façon de comprendre l'impact de mon travail sur les projets précédents.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+5. Page d'ajout de témoignages : Sur cette page, les utilisateurs ont la possibilité de partager leurs propres témoignages sur mon travail. C'est une fonctionnalité interactive qui permet à mon portfolio de rester dynamique et constamment mis à jour.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+installer les dependences
 
-## Learn More
+- npm install
 
-To learn more about Next.js, take a look at the following resources:
+démarrer le serveur local avec :
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- npm run dev
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Technologies utilisées
 
-## Deploy on Vercel
+- next js : Le cœur de cette application est construit avec next.js,c'est un framework web open-source basé sur React utilisé pour développer des applications web côté serveur et côté client. Il permet de créer des applications web modernes avec une excellente expérience utilisateur et des performances optimales. Next.js fournit des fonctionnalités avancées telles que le rendu côté serveur (SSR), le rendu côté client (CSR), le rendu statique et le pré-rendu (SSG), ce qui facilite le développement d'applications rapides et efficaces.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- redux : Redux est une bibliothèque JavaScript open-source conçue pour gérer l'état d'une application de manière prévisible et centralisée. Il est souvent utilisé en conjonction avec des bibliothèques de rendu de vues comme React, mais il peut également être utilisé avec d'autres frameworks ou bibliothèques front-end.
